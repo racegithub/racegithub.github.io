@@ -1,0 +1,67 @@
+
+body {
+  background-image: url('tesh1.jpg');
+  background-repeat: no-repeat;
+  background-position: 2% -8%;
+  background-color:#ebd8b7;
+}
+#customers {
+  font-family:sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #26001b;
+  padding: 8px;
+}
+
+#customers tr:nth-child(odd){background-color: #ddd;}
+
+#customers td:hover {background-color: #e4fbff;}
+
+#customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #1687a7;
+  color: white;
+}
+
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black;
+  text-align: center;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 80%;
+  left: 30%;
+  margin-left: -10px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  margin-left: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

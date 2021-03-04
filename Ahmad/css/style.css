@@ -1,0 +1,42 @@
+.bg-red-gradient {
+  background: #EF3B36;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+  display: inline;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+div a{
+  color:#EF3B36
+}
+div a:hover{
+  text-decoration: none;
+  color: red;
+}
+nav a:hover{
+  text-decoration: none;
+  color:red;
+}
+
+nav ul li a{
+  display: block;
+  color: white;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: black;
+}
